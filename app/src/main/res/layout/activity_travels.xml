@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imgBack"
+        android:id="@+id/imgBackNewSopt"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="16dp"

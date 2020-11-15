@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btNextSpot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.RunningActivity">
@@ -40,27 +41,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imgBackRunning"
         tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/editDestiny"
-        android:layout_width="0dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="#aaa"
-        android:drawableLeft="@drawable/circulo_preto"
-        android:drawablePadding="6dp"
-        android:ems="10"
-        android:enabled="false"
-        android:inputType="textPersonName"
-        android:text="R.Lorem Ipsum, 445"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="28dp"
@@ -72,4 +52,23 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         app:srcCompat="@drawable/ic_add_24"
         tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/btSpot"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#aaa"
+        android:drawableLeft="@drawable/circulo_preto"
+        android:text="R.Lorem Ipsum, 445"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:ignore="DuplicateIds" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
