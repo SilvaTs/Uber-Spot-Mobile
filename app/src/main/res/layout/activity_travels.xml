@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgBack"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="16dp"
@@ -38,7 +38,7 @@
         tools:ignore="MissingConstraints" />
 
     <View
-        android:id="@+id/view4"
+        android:id="@+id/imgParaOnde"
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginStart="24dp"
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toTopOf="@+id/view3" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtWhere"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
@@ -62,7 +62,7 @@
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/view4"
-        app:layout_constraintTop_toTopOf="@+id/view4" />
+        app:layout_constraintStart_toStartOf="@+id/imgParaOnde"
+        app:layout_constraintTop_toTopOf="@+id/imgParaOnde" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

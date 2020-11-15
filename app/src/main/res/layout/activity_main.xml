@@ -36,7 +36,7 @@
             app:srcCompat="@drawable/fundo_princiapal" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imgViagem"
             android:layout_width="417dp"
             android:layout_height="107dp"
             android:background="#ffffff"
@@ -57,10 +57,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+            app:layout_constraintTop_toBottomOf="@+id/imgViagem" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txtViagem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
@@ -71,7 +71,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/topView2"
-            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+            app:layout_constraintTop_toBottomOf="@+id/imgViagem" />
 
         <View
             android:id="@+id/view"
@@ -82,7 +82,7 @@
             android:layout_marginRight="4dp"
             android:background="@drawable/round_bg"
             app:layout_constraintEnd_toEndOf="@+id/topView2"
-            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+            app:layout_constraintTop_toBottomOf="@+id/imgViagem" />
 
         <ImageView
             android:id="@+id/imageView9"
@@ -167,7 +167,7 @@
             tools:ignore="MissingConstraints" />
 
         <ImageView
-            android:id="@+id/imageView17"
+            android:id="@+id/imgMapViagem"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -1,14 +1,16 @@
-package br.com.daniel.hackathon;
+package br.com.daniel.hackathon.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class TravelsActivity extends AppCompatActivity {
+import br.com.daniel.hackathon.R;
+
+public class RunningActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_travels);
+        setContentView(R.layout.activity_running);
     }
 }
