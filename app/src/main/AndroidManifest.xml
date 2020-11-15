@@ -35,13 +35,8 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyDk6ATym31k852AtzvIgqrytMVvUXsDqto"/>
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps">
-
-        </activity>
         <activity android:name=".TravelsActivity"
             android:theme="@style/Theme.Hackathon">
 
