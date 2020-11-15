@@ -6,56 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".ui.RunningActivity">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgBackRunning"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
         android:layout_marginTop="56dp"
+        android:src="@drawable/ic_back_24"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view5"
-        app:srcCompat="@drawable/ic_back_24"
-        tools:ignore="VectorDrawableCompat" />
-
-    <View
-        android:id="@+id/view5"
-        android:layout_width="0dp"
-        android:layout_height="227dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="0dp"
         android:layout_height="28dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:background="@android:color/white"
         android:drawableLeft="@drawable/circulo_cinza"
         android:drawablePadding="6dp"
         android:ems="10"
         android:enabled="false"
-        android:text="Rua Francisco Glicério, 778"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/view5"
+        android:text="Rua Francisco Glicério, 778"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="102dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imgBackRunning"
+        tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editDestiny"
         android:layout_width="0dp"
         android:layout_height="28dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="#aaa"
         android:drawableLeft="@drawable/circulo_preto"
         android:drawablePadding="6dp"
@@ -63,7 +56,20 @@
         android:enabled="false"
         android:inputType="textPersonName"
         android:text="R.Lorem Ipsum, 445"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:srcCompat="@drawable/ic_add_24"
+        tools:ignore="VectorDrawableCompat" />
 </androidx.constraintlayout.widget.ConstraintLayout>
