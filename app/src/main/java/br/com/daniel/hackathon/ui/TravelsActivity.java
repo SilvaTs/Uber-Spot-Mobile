@@ -23,12 +23,11 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.pixplicity.easyprefs.library.Prefs;
 import br.com.daniel.hackathon.R;
-import br.com.daniel.hackathon.network.api.RetrofitClientInstance;
-import br.com.daniel.hackathon.network.models.Usuario;
+import br.com.daniel.hackathon.network.api.ApiService;
+import br.com.daniel.hackathon.network.models.User;
 import br.com.daniel.hackathon.network.response.generateSpot.ResponseGenerateSpot;
 import br.com.daniel.hackathon.network.service.searchForNextSpotService;
 import br.com.daniel.hackathon.utils.Constants;
-import br.com.daniel.hackathon.utils.ObtainGPS;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -141,12 +140,12 @@ public class TravelsActivity extends AppCompatActivity implements OnMapReadyCall
             String latitude = Prefs.getString(Constants.LATITUDE, "");
             String longitude = Prefs.getString(Constants.LONGITUDE, "");
 
-            Usuario usuario = new Usuario();
-            usuario.setLatitude(latitude);
-            usuario.setLongitude(longitude);
+            User user = new User();
+            user.setLatitude(latitude);
+            user.setLongitude(longitude);
 
-            searchForNextSpotService forNextSpotService = RetrofitClientInstance.getRetrofitInstance(searchForNextSpotService.class);
-            call = forNextSpotService.searchSpot(usuario);
+            searchForNextSpotService forNextSpotService = ApiService.getRetrofitInstance(searchForNextSpotService.class);
+            call = forNextSpotService.searchSpot(user);
 
             call.enqueue(new Callback<ResponseGenerateSpot>() {
                 @Override

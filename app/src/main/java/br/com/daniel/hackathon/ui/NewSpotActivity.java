@@ -2,8 +2,6 @@ package br.com.daniel.hackathon.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -14,7 +12,6 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -27,14 +24,11 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.pixplicity.easyprefs.library.Prefs;
-import com.shashank.sony.fancytoastlib.FancyToast;
 
 import br.com.daniel.hackathon.R;
-import br.com.daniel.hackathon.network.api.RetrofitClientInstance;
-import br.com.daniel.hackathon.network.response.generateSpot.ResponseGenerateSpot;
+import br.com.daniel.hackathon.network.api.ApiService;
 import br.com.daniel.hackathon.network.response.nextSpot.ResponseNextSpot;
 import br.com.daniel.hackathon.network.service.getSearchForNextSpotService;
-import br.com.daniel.hackathon.network.service.searchForNextSpotService;
 import br.com.daniel.hackathon.utils.Constants;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -159,7 +153,7 @@ public class NewSpotActivity extends AppCompatActivity implements OnMapReadyCall
 
     public void searchNextSpot() {
 
-        getSearchForNextSpotService getSearchForNextSpotService = RetrofitClientInstance.getRetrofitInstance(getSearchForNextSpotService.class);
+        getSearchForNextSpotService getSearchForNextSpotService = ApiService.getRetrofitInstance(getSearchForNextSpotService.class);
         call = getSearchForNextSpotService.searchSpot();
 
         call.enqueue(new Callback<ResponseNextSpot>() {

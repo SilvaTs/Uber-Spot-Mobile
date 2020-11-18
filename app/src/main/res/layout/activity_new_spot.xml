@@ -32,8 +32,8 @@
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
         android:src="@drawable/ic_back_24"
-        app:civ_border_color="@color/white"
-        app:civ_circle_background_color="@color/white"
+        app:civ_border_color="#fff"
+        app:civ_circle_background_color="#fff"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />

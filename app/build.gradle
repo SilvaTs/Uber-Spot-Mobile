@@ -48,10 +48,6 @@ dependencies {
     //lib para deixar imagem redonda
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
-    // glide image dependency
-    implementation 'com.github.bumptech.glide:glide:4.11.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-
     implementation 'com.google.android.material:material:1.0.0'
 
     //retrofit
@@ -70,16 +66,7 @@ dependencies {
     //EasyPrefs
     implementation 'com.pixplicity.easyprefs:library:1.9.0'
 
-    //dialog
-    implementation 'com.github.mejdi14:Flat-Dialog-Android:1.0.5'
-
-    //Calligraphy
-    implementation 'io.github.inflationx:calligraphy3:3.1.1'
-    implementation 'io.github.inflationx:viewpump:2.0.3'
-
     //timber
     implementation 'com.jakewharton.timber:timber:4.7.1'
 
-    //FancyToast
-    implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.6'
 }
