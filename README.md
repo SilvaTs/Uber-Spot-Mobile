@@ -3,13 +3,13 @@
 
 ## Screenshots
 
-Principal                                                                                                          |  Localização do Usuaário                                   |  
-:--------------------------------------------------                                                               :|:--------------------------------------------------------:|
-<img src="https://user-images.githubusercontent.com/47439833/99196744-bca3db00-2764-11eb-97bf-b3be58bf778d.png"/>  |  <img src="https://user-images.githubusercontent.com/47439833/99197278-ec081700-2767-11eb-93dd-d7121b8c633b.png"/> 
-
-Destino                                                                                                            | Spot mais Próximos                                               |
-:--------------------------------------------------                                                               :|:--------------------------------------------------------:|
-<img src="https://user-images.githubusercontent.com/47439833/99196760-cdece780-2764-11eb-8e45-716dcb11cacc.png"/>  |<img src="https://user-images.githubusercontent.com/47439833/99196764-d04f4180-2764-11eb-892e-d0b4eab76efd.png"/>
+Principal                                                                                                          |  Localização do Usuaário                                                                                          |  
+:---------------------------------------------------------------------------------------------------------------- :|:-----------------------------------------------------------------------------------------------------------------:|
+<img src="https://user-images.githubusercontent.com/47439833/99196744-bca3db00-2764-11eb-97bf-b3be58bf778d.png"/>  |  <img src="https://user-images.githubusercontent.com/47439833/99197278-ec081700-2767-11eb-93dd-d7121b8c633b.png"/>|
+                                                                                                                   |                                                                                                                                                                                                                               |
+Destino                                                                                                            | Spot mais Próximos                                                                                                |
+:-----------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
+<img src="https://user-images.githubusercontent.com/47439833/99196760-cdece780-2764-11eb-8e45-716dcb11cacc.png"/>  |<img src="https://user-images.githubusercontent.com/47439833/99196764-d04f4180-2764-11eb-892e-d0b4eab76efd.png"/>  |
 
 ---
 Indice
