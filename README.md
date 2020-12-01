@@ -26,7 +26,7 @@ Indice
 ---
 
 ## 😊 Sobre
-Um projeto desenvolvido na 5° edição do megahack de 2020,onde o foco era trazer uma nova funcionalidade para o uber.
+App da UberSpot, uma solução desenvolvida, para o desafio da Uber, durante o Mega Hack 5.0 da Shawee 🚀
 
 ---
 
